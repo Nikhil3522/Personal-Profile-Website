@@ -1,0 +1,65 @@
+@keyframes spin {
+    0% {
+      width: 0%;
+      background-color: antiquewhite;
+    }
+    100% {
+      width: 85%;
+    }
+}
+
+.skillList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box{
+    width: 25rem;
+    height: 2.5rem;
+    border: 1px solid rgb(243, 240, 240);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .box{
+        width: 16rem;
+    }
+}
+
+.ninety{
+    /* height: inherit; */
+    width: 90%;
+    background-color: rgb(97, 17, 95);
+    animation: spin 3s;
+    margin: 0;
+}
+
+.eighty{
+    width: 80%;
+    background-color: rgb(17, 29, 97);
+    animation: spin 3s;
+    margin: 0;
+}
+
+.eighty-five{
+    width: 85%;
+    background-color: rgb(154, 164, 37);
+    animation: spin 3s;
+    margin: 0;
+}
+
+.sixty-five{
+    width: 65%;
+    background-color: rgb(35, 135, 50);
+    animation: spin 3s;
+    margin: 0;
+}
+
+.skillName{
+    margin-top: 0;
+    margin-bottom: 0;
+}

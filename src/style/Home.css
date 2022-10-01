@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    margin-bottom: 150px;
+}
+
+.left-Container{
+    width: 50%;
+    min-height: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    /* margin: 5px; */
+}
+
+.right-Container{
+    width: 50%;
+    /* margin: 5px; */
+}
+
+.intro{
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.image{
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px){
+    .left-Container, .right-Container{
+        width: 100%;
+    }
+}

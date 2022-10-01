@@ -1,0 +1,25 @@
+.navbar{
+    height: 45px;
+    background-color: #160ead;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content:end;
+}
+
+h3{
+    margin-left: 20px;
+    list-style: none;
+    /* background-color: red; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
